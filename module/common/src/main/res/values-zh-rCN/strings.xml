@@ -1,0 +1,485 @@
+<resources>
+    <!--通用-->
+    <string name="common_no_data">数据为空，请刷新</string>
+    <string name="common_loading_error">加载错误，请重试</string>
+    <string name="common_refresh">刷新</string>
+    <string name="common_request_failed">请求失败，请重试</string>
+    <string name="common_vehicle_connect_fail">车辆4G网络连接失败，请重试</string>
+    <string name="common_confirm">确认</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_loading">加载中...</string>
+    <string name="common_tap_to_load_more">点击加载更多</string>
+    <string name="common_no_more_data">没更多数据</string>
+    <string name="common_login_expired">登陆已过期</string>
+    <string name="net_ssl_error">SSL认证失败，是否继续访问?</string>
+    <string name="common_next">下一步</string>
+    <string name="common_ok">我知道了</string>
+    <string name="common_yes">是</string>
+    <string name="common_no">否</string>
+
+    <!--权限相关-->
+    <string name="permission_title">当前消息通知未授权是否要授权？</string>
+    <string name="permission_content">你好，我们需要您的推送权限，以便及时通知您车辆状态</string>
+    <string name="permission_authorize">前往</string>
+    <string name="permission_not_authorize">不了，谢谢</string>
+
+    <!--登录页-->
+    <string name="login_language">中文</string>
+    <string name="login_username">用户名</string>
+    <string name="login_password">密码</string>
+    <string name="login">登录</string>
+    <string name="forgot_password">忘记密码？</string>
+    <string name="remember_me">记住密码</string>
+    <string name="login_privacy">我已阅读并同意%s与%s</string>
+    <string name="login_user_agreement">《用户协议》</string>
+    <string name="login_privacy_policy">《隐私政策》</string>
+    <string name="login_privacy_tips">协议未勾选</string>
+
+    <!-- 认证页-->
+    <string name="verification">验证</string>
+    <string name="device_verification">设备验证</string>
+    <string name="receive_verification_code_via">通过以下邮箱接收验证码\n%s</string>
+    <string name="email_verification">邮箱验证</string>
+    <string name="verify_your_identity_via_bonded_device">通过绑定设备验证身份</string>
+    <string name="verify_desc">为了保护您账户安全请先进行身份验证</string>
+
+    <!--邮箱认证-->
+    <string name="success_sent">成功发送</string>
+    <string name="email_verify_desc">你会得到一个验证码邮件，输入验证码去验证你的身份</string>
+    <string name="resend">重新发送</string>
+
+    <!--重置密码-->
+    <string name="reset_username">用户名</string>
+    <string name="reset_username_hint">输入你的用户名</string>
+    <string name="reset_email">邮箱</string>
+    <string name="reset_email_hint">输入邮箱</string>
+    <string name="reset_send_verification_code">发送验证码</string>
+    <string name="reset_email_send_success_desc">你会得到一个验证码邮件，输入验证码去验证你的身份</string>
+    <string name="reset_password_desc">密码可用于登录web和移动设备</string>
+    <string name="reset_password_hint">至少8个含字母数字字符</string>
+    <string name="reset_password_condition_1">重设密码长度为8～14位</string>
+    <string name="reset_password_condition_2">重设密码必须包含数字、大写字母、小写字母</string>
+    <string name="reset_password_condition_3">重设密码不能包含用户名</string>
+    <string name="reset_password_format_is_incorrect_please_re_enter">密码格式有误，请重新输入</string>
+    <string name="reset_password">重置密码</string>
+    <string name="reset_enter_password">输入密码</string>
+
+    <!-- 选择场地、车辆-->
+    <string name="vehicle_start_vehicle">开启选中车辆</string>
+    <string name="vehicle_control_vehicle">控制选中车辆</string>
+    <string name="vehicle_choose_another_item">选择场地</string>
+    <string name="vehicle_online">在线</string>
+    <string name="vehicle_offline">离线</string>
+    <string name="vehicle_preparing">准备中</string>
+    <string name="vehicle_unable_to_operate">车辆充电中不可控制</string>
+    <string name="vehicle_view_vehicle_status">查看车辆状态</string>
+
+
+    <!-- 实时图传监控    -->
+    <string name="aliac_real_time_video">实时视频</string>
+    <string name="aliac_main_view">主视图</string>
+    <string name="aliac_side_view">侧视图</string>
+    <string name="aliac_rear_view">后视图</string>
+    <string name="aliac_click_to_reload">点击重新加载</string>
+
+    <!--    车辆控制开关首页-->
+    <string name="vehicle_control_portal">控制启动页</string>
+    <string name="vehicle_autonomous_safety_switch">蓄电池</string>
+    <string name="vehicle_on">开</string>
+    <string name="vehicle_off">关</string>
+    <string name="vehicle_power">电源</string>
+    <string name="vehicle_ads">无人驾驶系统</string>
+    <string name="vehicle_control_the_vehicle">控制车辆</string>
+    <string name="vehicle_confirm_power_on">请确认是否打开电源</string>
+    <string name="vehicle_confirm_power_off">请确认是否关闭电源</string>
+    <string name="vehicle_confirm_ads_activate">请确认是否打开无人驾驶系统</string>
+    <string name="vehicle_confirm_ads_deactivate">请确认是否关闭无人驾驶系统</string>
+    <string name="vehicle_loading_timeout">加载超时</string>
+    <string name="vehicle_tips_open_ads">无人驾驶系统开启中...</string>
+    <string name="vehicle_tips_close_ads">无人驾驶系统关闭中...</string>
+    <string name="vehicle_power_on_fail_tips">远程上电失败，请确认下列情况。\n1. 如钥匙没拔出，请拔出钥匙重新尝试远程开启电源；\n2. 如网络信号不好，请检查网络条件是否满足；\n综上仍无法远程开启电源，请尝试手动上电。\n如果您想寻求更多帮助，请通过邮件联系我们。</string>
+
+
+    <!--消息中心、我的-->
+    <string name="msg_system_message">消息中心</string>
+    <string name="msg_warning">预警</string>
+    <string name="msg_sweeping_report">清扫报告</string>
+    <string name="msg_account_security">账号安全</string>
+    <string name="mine_me">个人中心</string>
+    <string name="mine_version">版本</string>
+    <string name="mine_user_agreement">用户协议</string>
+    <string name="mine_log_out">退出登录</string>
+    <string name="mine_exit_tips">请确认是否退出系统</string>
+
+    <!--启动检查页-->
+    <string name="vehicle_manual_check_title">手动检查</string>
+    <string name="vehicle_manual_check_normal">无误</string>
+    <string name="vehicle_manual_check_warning">警告</string>
+    <string name="vehicle_manual_check_error">错误</string>
+    <string name="vehicle_manual_check_pass_all_checks">通过所有检测项</string>
+    <string name="vehicle_manual_check_pass_submit_result">提交结果</string>
+    <string name="vehicle_manual_check_commit_tips">检查结果已有人提交，车辆已经在自检</string>
+    <string name="vehicle_manual_check_input_desc_hint">请输入问题描述</string>
+
+    <!--用户协议相关-->
+    <string name="privacy_user_agreement">用户协议</string>
+    <string name="privacy_privacy_policy">隐私政策</string>
+    <string name="privacy_agree">同意</string>
+
+    <!--强制升级-->
+    <string name="version_not_supported_title">版本升级</string>
+    <string name="version_not_supported_content">当前版本已不支持，请升级到最新版本</string>
+    <string name="version_upgrade">升级</string>
+
+    <!--    用户反馈-->
+    <string name="feedback_file_type_not_support">文件格式暂不支持</string>
+    <string name="mine_user_feedback">用户反馈</string>
+    <string name="mine_user_feedback_category">反馈类型</string>
+    <string name="mine_user_feedback_description">问题描述</string>
+    <string name="mine_user_feedback_send">上传</string>
+    <string name="mine_user_feedback_category_vehicle">车辆问题</string>
+    <string name="mine_user_feedback_category_suggestion">优化建议</string>
+    <string name="mine_user_feedback_category_other">其它</string>
+    <string name="mine_user_feedback_send_complete">反馈信息已上传</string>
+    <string name="mine_user_feedback_describe_your_question">请描述你的问题</string>
+
+
+    <!--任务选择页-->
+    <string name="vehicle_rout_task_title">清扫路线</string>
+    <string name="vehicle_rout_task_dialog">是否执行当前任务？</string>
+
+    <!--    设备验证-->
+    <string name="login_verify_confirm_tips">请在最新登录成功设备上确认登录</string>
+    <string name="login_verify_verification_failed">验证失败</string>
+    <string name="login_verify_device_identifier">本机标识</string>
+    <string name="login_verify_fail_return_tips">%d秒后将会返回验证界面</string>
+    <string name="login_verify_accept">登录</string>
+    <string name="login_verify_refuse">取消</string>
+    <string name="login_verify_content">是否同意设备%s登录？</string>
+
+    <!--新手引导-->
+    <string name="guide_user_power_tips">车辆蓄电池开关提示</string>
+    <string name="guide_user_power_first_step_tips">第一步，开启电源</string>
+    <string name="guide_user_power_second_step_tips">第二步，启动ADS\n完全开启后就可以让车辆执行清扫任务啦</string>
+    <string name="guide_user_power_complete_tips">完全开启后就可以让车辆执行清扫任务啦</string>
+    <string name="guide_user_next_step">下一步</string>
+    <string name="guide_user_start_use">开始使用</string>
+    <string name="guide_user_start_check_tips1">你需要对每一项内容进行检查</string>
+    <string name="guide_user_start_check_tips2">如确认存在不正常状态，你可以描述当前问题给我们</string>
+
+    <!--个人中心页-->
+    <string name="mine_user_feedback_dlg_change_avatar_title">更改头像</string>
+    <string name="mine_user_feedback_dlg_change_avatar_choose_from_library">上传图片</string>
+    <string name="mine_user_feedback_dlg_change_avatar_take_a_photo">拍照上传</string>
+    <string name="mine_user_feedback_dlg_change_avatar_cancle">取消</string>
+    <string name="mine_user_feedback_dlg_btn_confirm">确认</string>
+    <string name="mine_user_feedback_dlg_btn_cancel">取消</string>
+    <string name="mine_user_feedback_toast_fail_camera">无法使用拍照上传头像</string>
+    <string name="mine_user_feedback_toast_fail_camera_permission">无法使用拍照上传头像，请检查权限开关是否开启</string>
+    <string name="mine_user_feedback_toast_fail_library">无法使用相册上传头像</string>
+    <string name="mine_user_feedback_toast_fail_library_permission">无法使用相册上传头像，请检查权限开关是否开启</string>
+    <string name="mine_user_feedback_toast_upload_success">上传头像成功</string>
+    <string name="mine_user_feedback_toast_upload_failed">上传头像失败</string>
+    <string name="mine_user_feedback_toast_camera_permission_request">请授权相机进行上传头像</string>
+    <string name="mine_user_feedback_toast_album_permission_request">请授权相册进行上传头像</string>
+
+
+    <!--  启动页，车辆状态  -->
+    <string name="common_unknown">未知</string>
+    <string name="vehicle_start_abnormal">异常</string>
+    <string name="vehicle_start_status">车辆状态</string>
+
+    <string name="vehicle_start_status_network">网络条件</string>
+    <string name="vehicle_start_status_parking_brake">手刹</string>
+    <string name="vehicle_start_status_charging_cable">充电枪</string>
+    <string name="vehicle_start_status_battery">电量</string>
+    <string name="vehicle_start_status_emergency_stop">急停按钮</string>
+    <string name="vehicle_start_status_freshwater_tank">清水箱</string>
+
+    <string name="vehicle_start_status_break_activated">开</string>
+    <string name="vehicle_start_status_break_released">关</string>
+    <string name="vehicle_start_status_plugged">已插</string>
+    <string name="vehicle_start_status_unplugged">未插</string>
+    <string name="vehicle_start_status_charing">充电中</string>
+    <string name="vehicle_start_status_power_left">%d%%</string>
+    <string name="vehicle_start_status_pressed">开</string>
+    <string name="vehicle_start_status_released">关</string>
+    <string name="vehicle_start_status_empty">空</string>
+    <string name="vehicle_start_status_not_empty">满</string>
+
+    <string name="vehicle_route_task_can_not_excute_task">无法执行当前任务，当前坐标不符合起点</string>
+
+    <!--新建定时任务-->
+    <string name="new_schedule_title_cancel">取消</string>
+    <string name="new_schedule_title_save">保存</string>
+    <string name="new_schedule_repeat_way_once">单次</string>
+    <string name="new_schedule_time_duration">预计耗时/里程</string>
+    <string name="new_schedule_please_select">请选择</string>
+    <string name="new_schedule_repeat_way_monday">一</string>
+    <string name="new_schedule_repeat_way_tuesday">二</string>
+    <string name="new_schedule_repeat_way_wednesday">三</string>
+    <string name="new_schedule_repeat_way_thursday">四</string>
+    <string name="new_schedule_repeat_way_friday">五</string>
+    <string name="new_schedule_repeat_way_saturday">六</string>
+    <string name="new_schedule_repeat_way_sunday">日</string>
+    <string name="new_schedule_repeat_way_monday_tumb">一</string>
+    <string name="new_schedule_repeat_way_tuesday_tumb">二</string>
+    <string name="new_schedule_repeat_way_wednesday_tumb">三</string>
+    <string name="new_schedule_repeat_way_thursday_tumb">四</string>
+    <string name="new_schedule_repeat_way_friday_tumb">五</string>
+    <string name="new_schedule_repeat_way_saturday_tumb">六</string>
+    <string name="new_schedule_repeat_way_sunday_tumb">日</string>
+    <string name="new_schedule_create_title">添加定时任务</string>
+    <string name="new_schedule_edit_title">编辑定时任务</string>
+    <string name="new_schedule_select_task">选择任务</string>
+    <string name="new_schedule_repeat_way">重复方式</string>
+    <string name="new_schedule_delete">删除任务</string>
+    <string name="new_schedule_repeat_way_every_week">每周</string>
+    <string name="new_schedule_dlg_execute">是否执行定时任务？</string>
+    <string name="new_schedule_dlg_sure">确认</string>
+    <string name="new_schedule_dlg_think_again">再想想</string>
+    <string name="new_schedule_cancel_dlg_title">是否取消编辑定时任务？</string>
+    <string name="new_schedule_delete_dlg_title">是否删除定时任务</string>
+    <string name="new_schedule_repeat_way_circulate">循环提醒</string>
+    <string name="new_schedule_dlg_part1_title">定时任务</string>
+    <string name="new_schedule_dlg_part1_0">请确认是否设置定时任务，详情如下：\n车辆：%s\n路线：%s\n重复方式：%s\n生效时间：%s</string>
+    <string name="new_schedule_dlg_part2_0">定时任务确认设置后，请务必车辆在开始执行任务前对车辆进行物理检查，否则可能发生事故造成人员伤害及车辆或者物品损坏。为了确保车辆安全，您应执行以下操作：\n1. 当您保存定时任务后，车辆将按时执行自动驾驶清扫任务。您将授权仙途智能云控平台在定时任务生效时间帮您远程启动和控制车辆。\n2.在车辆执行清扫任务前，请务必根据《波雄 S2.0 云控平台用户手册》5.4 章“车辆控制端概览”和 5.5 章“访问车辆控制端”对车辆进行物理检查，确认车辆状态满足远程开启条件。\n3. 当车辆开始执行任务时，将默认用户手动检查通过，如您未进行检查，您将对车辆可能造成无法执行任务以及执行任务过程中产生的任何后果自行承担全部责任。</string>
+    <string name="new_schedule_dlg_elert">如发现车辆状况或道路环境等不适宜使用该功能，或存在其他不安全因素，您应随时准备接管车辆，并立即联系仙途智能云控平台关闭定时任务。\n在使用该定时任务功能时，您应时刻监管与控制车辆并承担全部责任。</string>
+    <string name="new_schedule_dlg_part2_check">了解并确认设置定时任务</string>
+    <string name="new_schedule_dlg_part3_btn_sure">确认并执行</string>
+    <string name="new_schedule_dlg_part2_title1">重要说明</string>
+    <string name="new_schedule_dlg_part2_title2">警告</string>
+    <string name="new_schedule_dlg_part3_2">\n确认保存后，请务必车辆在开始执行任务前对车辆进行物理检查，否则可能发生事故造成人员伤害及车辆或者物品损坏。</string>
+
+    <!--定时任务列表-->
+    <string name="vehicle_timing_task_list_title">定时任务表</string>
+    <string name="vehicle_timing_task_list_history_title">历史任务表</string>
+    <string name="vehicle_timing_task_everyday">每日</string>
+    <string name="vehicle_timing_task_withdraw_task">撤回任务</string>
+    <string name="vehicle_timing_task_withdraw_in">撤回中</string>
+    <string name="vehicle_timing_task_working_days">工作日</string>
+    <string name="vehicle_timing_task_planing">计划中</string>
+    <string name="vehicle_timing_task_looper">循环</string>
+    <string name="vehicle_timing_task_schedule">执行中</string>
+    <string name="vehicle_timing_task_schedule_complete">已执行</string>
+    <string name="vehicle_timing_task_schedule_error">执行错误</string>
+    <string name="vehicle_timing_task_close_task">是否要关闭指定任务</string>
+    <string name="vehicle_timing_task_open_task">是否要开启指定任务</string>
+    <string name="vehicle_timing_task_is_withdraw_task">是否撤回指定任务</string>
+    <string name="vehicle_timing_task_schedule_error_check">%s %s执行错误请前去检查车辆各个开关是否开启？\n</string>
+    <string name="vehicle_timing_task_schedule_error_check_line">（%d）%s：%s\n</string>
+
+    <!--日历-->
+    <string name="calendar_year">年</string>
+    <string name="calendar_month">月</string>
+    <string name="calendar_day">日</string>
+
+    <!--任务选择列表切换场地-->
+    <string name="vehicle_rout_task_btn_select_park">切换场地</string>
+    <string name="vehicle_rout_task_park_select_title">选择场地</string>
+    <string name="vehicle_start_problem_diagnosis">问题诊断</string>
+    <string name="vehicle_start_problem_diagnosis_dlg_exit">退出诊断</string>
+    <string name="vehicle_start_problem_diagnosis_dlg_correct">诊断无误</string>
+    <string name="vehicle_start_problem_diagnosis_web_connect">网络连接</string>
+    <string name="vehicle_start_problem_diagnosis_interface_connect">接口连接</string>
+    <string name="vehicle_start_problem_diagnosis_command_receive">车辆接收指令</string>
+    <string name="vehicle_start_problem_diagnosis_web_connect_error">报错{%s} 请联系工程师处理问题</string>
+
+
+
+    <!--高精地图native-->
+    <string name="map_manual">手动驾驶</string>
+    <string name="map_auto">自动驾驶</string>
+    <string name="map_time_left">剩余</string>
+    <string name="map_mileage_left">剩余</string>
+    <string name="map_progress">进度</string>
+    <string name="map_task_type_0">其他任务</string>
+    <string name="map_task_type_1">车辆转场</string>
+    <string name="map_task_type_2">全覆盖清扫</string>
+    <string name="map_task_type_3">停车场清扫</string>
+    <string name="map_task_type_4">智能清扫</string>
+    <string name="map_task_type_5">贴边清扫</string>
+    <string name="map_task_type_6">中心线任务</string>
+    <string name="map_task_type_1001">返回起点</string>
+    <string name="map_task_type_1002">已回起点</string>
+    <string name="map_task_type_1003">返回终点</string>
+    <string name="map_task_type_1004">已回终点</string>
+    <string name="map_speed">速度</string>
+    <string name="map_return">返回</string>
+    <string name="map_time_travelled">清扫时间进度</string>
+    <string name="map_distance_travelled">清扫里程进度</string>
+    <string name="map_break">刹车</string>
+    <string name="map_throttle">油门</string>
+    <string name="map_brush_working">清扫中</string>
+    <string name="map_brush_not_work">就绪中</string>
+    <string name="map_route_name">路线:%s</string>
+    <string name="map_battery">电量</string>
+    <string name="map_brush">扫刷状态</string>
+    <string name="map_no_network_toast">当前网络条件差，请求失败，请稍后再试</string>
+    <string name="map_close_ads_with_who_and_platform">%s在%s正在关闭ADS中</string>
+
+    <string name="map_offline">车辆已离线</string>
+
+    <string name="map_processing">响应中，请稍等</string>
+    <string name="map_warning">预警</string>
+    <string name="map_duration">耗时</string>
+    <string name="map_no_network">无网络</string>
+    <string name="map_weak_network">网络条件差</string>
+    <string name="map_override_command_active">运营中心将远程介入车辆作业，请等待下一步操作。</string>
+
+    <string name="map_override_command_completed">远程介入已结束，当前任务将自动继续。</string>
+    <string name="map_override_command_ended">暂时无法自动作业，运营中心稍后将会与您联系。请按照接下来的对话框中的步骤操作。</string>
+    <string name="map_weak_network_title">网络异常提醒</string>
+    <string name="map_weak_network_text">我们系统现检测到车辆网络信号较弱，为了确保车辆安全，车辆将减速驶回路线起点，并随后关闭电源。在此期间，您可以选择是否进行以下操作：\n
+    1）前往场地找到车辆。\n
+    2）如果车辆已回至起点，那么您无需采取任何行动。\n
+    3）如果车辆仍在行驶，您可以按下急停按钮，切换至手动驾驶模式后将车辆开回起点。\n
+    4）如需更多帮助，请通过邮件 techsupport@drivebywibot.com 联系我们。</string>
+    <string name="map_start_vehicle_text">请确认是否让车辆开启行驶？</string>
+    <string name="map_stop_vehicle_text">请确认是否让车辆停止行驶？</string>
+    <string name="map_return_vehicle_text">请确认是否让车辆返回起点行驶？</string>
+    <string name="map_exiting_autonomous_mode">正在退出自动模式</string>
+    <string name="map_system_checkIn_rocess">正在检查车辆...</string>
+    <string name="map_system_check_normal">车辆检查通过，您可以通过轻击启动键启动车辆。</string>
+    <string name="map_system_check_abnormal_and_contact">车辆检查异常，仙途运营中心正在努力排查中，请耐心等待。</string>
+    <string name="map_system_check_fail">提交检查异常，请重启车辆，如有需要请及时联系我们排查问题。</string>
+    <string name="map_system_check_status_title">系统检测状态</string>
+    <string name="map_system_check_status_content">车辆正在检查中，约 5 分钟后检查结束后状态将更改为正常或异常。</string>
+
+
+    <string name="map_override_command_ended_title">远程介入结束</string>
+    <string name="map_movement_completed">移动已完成</string>
+    <string name="map_override_command_ended_content">请执行以下操作：\n
+    1. 返回车辆，按下位于车门旁的紧急停止按钮以确保车辆保持静止。\n
+    2. 进入驾驶舱，向上拨杆 A/M 杆，再向下拨动 A/M 杆， 然后手动车辆开回至起点。\n
+    3. 离开驾驶舱，然后顺时针转动紧急停止按钮使其复位。\n
+        4. 返回到本页面，点击\"移动已完成\“。\n
+        5. 如需更多帮助，请通过邮件 techsupport@drivebywibot.com 联系我们。</string>
+    <string name="map_collision_ensor_riggered_title">防撞条触发提醒</string>
+    <string name="map_collision_sensor_triggered_content">车辆的防撞条%s感应装置被触发。为了确保安全，我们希望您按如下步骤操作：\n
+    1）到车辆旁按下急停按钮\n
+    2）检查车辆状况\n
+    3）选择手动驾驶车辆，或释放急停按钮后，车辆将马上继续作业。</string>
+    <!--    // 防撞条触发类型-->
+    <string name="map_collision_bar_1">顶部</string>
+    <string name="map_collision_bar_2">垃圾箱左前</string>
+    <string name="map_collision_bar_3">垃圾箱右前</string>
+    <string name="map_collision_bar_4">左刷</string>
+    <string name="map_collision_bar_5">右刷</string>
+    <string name="map_collision_bar_6">垃圾箱左后</string>
+    <string name="map_collision_bar_7">垃圾箱右后</string>
+    <string name="map_deactivating_ads">无人驾驶系统关闭中...</string>
+    <!--    //===================新手指引==========================-->
+
+    <string name="map_next_step">下一步</string>
+    <string name="map_start_trial">开始使用</string>
+    <string name="map_live_video">车辆行驶的实时视频，可了解车辆实地场景</string>
+    <string name="map_cleaning_route">这里可查看实时清扫路线</string>
+    <string name="map_vehicle_driving">在这里你可以控制车辆行驶/停止</string>
+
+    <!--     //===================消息管理==========================-->
+    <string name="map_cleaning_report">清扫报告</string>
+    <string name="map_repeat_cleaning">再次清扫</string>
+    <string name="map_repeat_cleaning_confirm">请确认是否再次清扫作业？</string>
+    <string name="map_exit_ads">退出（无人驾驶系统）</string>
+
+
+    <!-- 版本升级 start -->
+    <string name="new_update">立即升级</string>
+    <string name="find_new_version">发现新版本%s</string>
+    <string name="download_fail">下载失败</string>
+    <string name="upgrade_install_now">立即安装</string>
+    <string name="app_download_show">下载中...</string>
+
+    <!--挪车-->
+    <string name="vehicle_control_connect_fail">车辆连接失败，请检查网络连接</string>
+    <string name="vehicle_control_close_wifi_move_vehicle">请确认是否关闭Wi-Fi近距离挪车</string>
+    <string name="vehicle_control_close_wifi_tips">请及时断连车辆Wi-Fi</string>
+    <string name="vehicle_control_no_wifi_tips">请手动连上车辆Wi-Fi信号</string>
+    <string name="vehicle_control_weak_wifi_tips">车辆Wi-Fi信号弱，请靠近车辆</string>
+    <string name="vehicle_control_normal_wifi_tips">请点击下方按钮开始挪车</string>
+    <string name="vehicle_control_open_power_and_tuv_tips">请将蓄电池开关和电源线下打开</string>
+    <string name="vehicle_move_power_tips">12V/24V蓄电池和电源</string>
+    <string name="vehicle_move_geer_front">前进档</string>
+    <string name="vehicle_move_geer_back">后退挡</string>
+    <string name="vehicle_move_unlock_vehicle_tips">(长按解锁车辆)</string>
+    <string name="vehicle_move_move_vehicle_tips">(请按提示画圈挪车)</string>
+    <string name="vehicle_move_enter_move">进入挪车</string>
+    <string name="vehicle_move_check_title">挪车准备检查</string>
+    <string name="vehicle_move_check_title_wifi">WI-FI连接</string>
+    <string name="vehicle_move_check_title_tuv">开启蓄电池</string>
+    <string name="vehicle_move_check_title_power">启动电源</string>
+    <string name="vehicle_move_check_title_ads">线上和线下关闭自动驾驶模式</string>
+    <string name="vehicle_move_check_title_stop">线上和线下解除急停</string>
+    <string name="vehicle_move_error_tips_wifi">请检查是否连接车辆的专属Wi-Fi</string>
+    <string name="vehicle_move_error_tips_tuv">蓄电池未开启，请检查是否开启蓄电池</string>
+    <string name="vehicle_move_error_tips_power">电源高压未启动，请检查钥匙是否已经扭到正确位置</string>
+    <string name="vehicle_move_error_tips_ads">自动驾驶模式未关闭，请检查线上或线下是否模式正确</string>
+    <string name="vehicle_move_error_tips_stop">急停未解除，请检查线上或线下急停按钮是否已触发</string>
+
+    <!--车辆启动-->
+    <string name="vehicle_start_4g_not_connect">4G未连接</string>
+    <string name="vehicle_start_connecting_4g">4G连接中…</string>
+    <string name="vehicle_start_4g_connect_success">4G已连接</string>
+    <string name="vehicle_start_connect_fail">连接失败</string>
+    <string name="vehicle_start_wifi_not_connect">Wi-Fi未连接</string>
+    <string name="vehicle_start_connecting_wifi">Wi-Fi连接中…</string>
+    <string name="vehicle_start_wifi_connect_success">Wi-Fi已连接</string>
+    <string name="vehicle_start_hardware_isopen">线下硬件开关是否已开启？</string>
+    <string name="vehicle_start_power_on_tips">确认是否打开高压电？</string>
+    <string name="vehicle_start_power_off_tips">确认是否关闭高压电？</string>
+    <string name="vehicle_start_hardware_on_tips">确认是否线上激活硬件启动？</string>
+    <string name="vehicle_start_hardware_off_tips">确认是否线上关闭硬件？</string>
+    <string name="vehicle_start_hardware_center">工控机</string>
+    <string name="vehicle_start_hardware_monitor">监控机</string>
+    <string name="vehicle_start_hardware_xavier">Xavier</string>
+    <string name="vehicle_start_hardware_starting_txt">启动中</string>
+    <string name="vehicle_start_hardware_closing_txt">关闭中</string>
+    <string name="vehicle_start_hardware_ready_tips">硬件准备就绪, \nReady后可启动自动驾驶</string>
+    <string name="vehicle_start_software_open_ads">开启\n自动驾驶</string>
+    <string name="vehicle_start_software_open_ads_complete">已开启\n自动驾驶</string>
+    <string name="vehicle_start_vehicle_connect_fail_tips">连接车辆失败，请检查蓄电池是否开启，如已开启请下拉刷新更新车辆状态</string>
+    <string name="vehicle_start_hardware_switch_text">硬件启动开关</string>
+    <string name="vehicle_start_battery_switch_text">蓄电池开关</string>
+    <string name="vehicle_start_power_switch_text">电源</string>
+    <string name="vehicle_start_hardware_opening">硬件启动中…</string>
+    <string name="vehicle_start_hardware_open_success">硬件启动成功</string>
+    <string name="vehicle_start_hardware_open_fail">硬件启动失败</string>
+    <string name="vehicle_start_hardware_closing">硬件关闭中…</string>
+    <string name="vehicle_start_hardware_close_success">硬件关闭成功</string>
+    <string name="vehicle_start_hardware_close_fail">硬件关闭失败</string>
+    <string name="vehicle_start_hardware_start_fail_dialog">车辆硬件启动失败，请重新启动硬件</string>
+    <string name="vehicle_start_control_vehicle_fail_tips">当前车辆状态被改变，不满足执行清扫任务条件，请检查各开关是否被关闭</string>
+
+    <string name="vehicle_start_power_on_success_toast">电源成功启动</string>
+    <string name="vehicle_start_hardware_on_success_toast">硬件成功启动</string>
+    <string name="vehicle_start_ads_on_success_toast">无人驾驶系统成功启动</string>
+    <string name="vehicle_start_get_vehicle_status_fail_toast">与车辆断连，请检查手机网络</string>
+    <string name="vehicle_start_software_start_loading">启动中...</string>
+    <string name="vehicle_start_vehicle_status_ongoing">车辆状态获取中…</string>
+
+<!--    首页-->
+    <string name="vehicle_select_control">遥控挪车</string>
+    <string name="vehicle_select_start">开始清扫</string>
+
+    <string name="login_point_chn">中国服务网络</string>
+    <string name="login_point_deu">欧洲服务网络</string>
+
+    <string name="vehicle_map_vehicle_stuck_dialog_content">车辆已1分钟没有行进，请及时查看车辆是否被障碍物卡住。</string>
+    <string name="vehicle_schedule_plan_modify_success">修改任务成功</string>
+    <string name="vehicle_schedule_plan_create_success">新建任务成功</string>
+
+
+
+    <!--    电源启动申明-->
+    <string name="vehicle_open_power_dlg_title">启动电源的重要声明</string>
+    <string name="vehicle_open_power_dlg_desc">开启电源后，请务必在车辆开始执行任务前对车辆进行物理检查，否则可能发生事故造成人员伤害及车辆或者物品损坏。为了确保车辆安全，您应检查以下所有项：</string>
+    <string name="vehicle_open_power_dlg_content">一、制动踏板位置检查\n二、扫刷检查\n三、紧急停止按钮\n四、垃圾箱及水箱检查\n五、大灯检查\n六、雷达及相机防护罩检查\n七、喷头检查\n八、转向异常噪音检查\n九、轮胎外观检查\n十、胎压检查\n十一、转向信号检查\n十二、车辆外观检查\n十三、车门检查\n十四、车内检查\n十五、清扫部件检查\n十六、滤水器检查\n十七、车轮螺栓检查\n十八、车轮位置检查</string>
+    <string name="vehicle_open_power_dlg_warning">警告：</string>
+    <string name="vehicle_open_power_dlg_warning_content">%s如发现上述车辆状况或道路环境等不适宜开启自动驾驶系统，或存在其他不安全因素，您应及时关闭电源，待问题解决后再重新启动车辆。在了解并确认所有检测项正常时，您应时刻监管与控制车辆并承担全部责任。</string>
+    <string name="vehicle_open_power_dlg_i_know">了解并确认上述所有检测项正常</string>
+    <string name="vehicle_open_power_dlg_error">车辆存在问题，需排查问题原因</string>
+    <string name="vehicle_open_power_fail_count_tips">建议手动拧钥匙确认是否可以完成上高压操作，如果失败，请检查蓄电池是否亏电;如果成功，请联系工程师诊断</string>
+    <string name="vehicle_network_timeout">网络连接超时，请重试</string>
+
+</resources>

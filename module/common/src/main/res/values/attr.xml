@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundImageView">
+        <!-- 描边宽度-->
+        <attr name="border_width" format="dimension"/>
+        <!-- 描边颜色-->
+        <attr name="border_color" format="color"/>
+        <!--圆角大小-->
+        <attr name="corner_radius" format="dimension"/>
+        <!--左上圆角大小-->
+        <attr name="leftTop_corner_radius" format="dimension"/>
+        <!--右上圆角大小-->
+        <attr name="rightTop_corner_radius" format="dimension"/>
+        <!--左下圆角大小-->
+        <attr name="leftBottom_corner_radius" format="dimension"/>
+        <!--右下圆角大小-->
+        <attr name="rightBottom_corner_radius" format="dimension"/>
+        <!--图片类型：圆角或者圆形-->
+        <attr name="type" format="enum">
+            <enum name="oval" value="2"/>
+            <enum name="round" value="1"/>
+            <enum name="circle" value="0"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgressView">
+        <attr name="backWidth" format="dimension" />    <!--背景圆环宽度-->
+        <attr name="progWidth" format="dimension" />    <!--进度圆环宽度-->
+        <attr name="backColor" format="color" />        <!--背景圆环颜色-->
+        <attr name="progColor" format="color" />        <!--进度圆环颜色-->
+        <attr name="progStartColorGap" format="float" />   <!--进度圆环开始的间隔-->
+        <attr name="progStartColor" format="color" />   <!--进度圆环开始颜色-->
+        <attr name="progEndColor" format="color" />   <!--进度圆环结束颜色-->
+        <attr name="progress" format="integer" />       <!--圆环进度-->
+        <attr name="dashWidth" format="dimension" />    <!--绘制虚线的 宽度-->
+        <attr name="dashGap" format="dimension" />      <!--绘制虚线的 间隔-->
+    </declare-styleable>
+
+    <declare-styleable name="ShadowLayout">
+        <attr name="shadow_color" format="color" />
+        <!-- 阴影半径，值设置为圆角的值-->
+        <attr name="shadow_radius" format="dimension" />
+        <attr name="shadow_blur" format="dimension" />
+        <attr name="shadow_dx" format="dimension" />
+        <attr name="shadow_dy" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="FlowLayout">
+        <attr name="itemSpacing" format="dimension" />
+        <attr name="lineSpacing" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundLinearLayout">
+        <attr name="rllRadius" format="dimension" />
+        <attr name="rllTopLeftRadius" format="dimension" />
+        <attr name="rllTopRightRadius" format="dimension" />
+        <attr name="rllBottomLeftRadius" format="dimension" />
+        <attr name="rllBottomRightRadius" format="dimension" />
+        <!--圆形-->
+        <attr name="rllIsOval" format="boolean" />
+        <attr name="rllStrokeColor" format="color" />
+        <attr name="rllStrokeWidth" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightLinearLayout">
+        <attr name="ll_maxHeight" format="dimension" />
+        <attr name="ll_minHeight" format="dimension" />
+    </declare-styleable>
+</resources>

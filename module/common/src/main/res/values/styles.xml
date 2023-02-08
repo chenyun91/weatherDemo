@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 带动画的底部弹出dialog -->
+    <style name="BottomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/dialog_slide_down</item>
+    </style>
+
+    <style name="RightDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_slide_right_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_slide_right_out</item>
+    </style>
+
+    <!--TODO: 奇怪的问题 放开，会导致底部弹出动画出现问题-->
+<!--    <style name="ABottomADialog182" />-->
+
+</resources>

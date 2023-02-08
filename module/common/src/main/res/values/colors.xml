@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2018 Google LLC
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <color name="color_app_background">@color/color_F3F4F8</color>
+    <color name="color_app_title">@color/color_F9F9F9</color>
+    <color name="color_transparent">@android:color/transparent</color>
+    <color name="color_dialog_bg">#BB000000</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_F3F4F8">#F3F4F8</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_4098FF">#4098FF</color>
+    <color name="color_DFE0E4">#DFE0E4</color>
+    <color name="color_253746">#253746</color>
+    <color name="color_FF4750">#FF4750</color>
+    <color name="color_97A6BC">#97A6BC</color>
+    <color name="color_E8EFF9">#E8EFF9</color>
+    <color name="color_F9F9F9">#F9F9F9</color>
+    <color name="color_A7A9AC">#A7A9AC</color>
+    <color name="color_BCBDC1">#BCBDC1</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+    <color name="color_3AC2A4">#3AC2A4</color>
+    <color name="color_FEAB47">#FEAB47</color>
+    <color name="color_FE3333">#FE3333</color>
+    <color name="color_ECF1F6">#ECF1F6</color>
+    <color name="common_color_error">@color/color_FF4750</color>
+    <color name="common_color_warning">@color/color_FEAB47</color>
+    <color name="color_868D9D">#FF868D9D</color>
+    <color name="color_6B719B">#6B719B</color>
+    <color name="color_E4DFDF">#E4DFDF</color>
+    <color name="color_F8F8F8">#F8F8F8</color>
+    <color name="color_A9B8CF">#FFA9B8CF</color>
+    <color name="color_d7d7d7">#d7d7d7</color>
+    <color name="color_D86962">#D86962</color>
+    <color name="color_EFEFEF">#EFEFEF</color>
+
+</resources>

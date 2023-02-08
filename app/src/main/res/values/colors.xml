@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2018 Google LLC
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_292B40">#292B40</color>
+    <color name="color_6B719B">#6B719B</color>
+    <color name="color_black">#000000</color>
+    <color name="color_1C1E2E">#1C1E2E</color>
+    <color name="color_4C61EE">#4C61EE</color>
+    <color name="color_282A3D">#282A3D</color>
+    <color name="color_FC4A40">#FC4A40</color>
+    <color name="color_33FC4A40">#33FC4A40</color>
+    <color name="color_37C9D0">#37C9D0</color>
+    <color name="color_CC37C9D0">#CC37C9D0</color>
+    <color name="color_FF9102">#FF9102</color>
+    <color name="color_4DDB49">#4DDB49</color>
+    <color name="color_12141E">#12141E</color>
+    <color name="color_333652">#333652</color>
+    <color name="color_222436">#222436</color>
+    <color name="color_FFBE00">#FFBE00</color>
+    <color name="color_FF555D">#FF555D</color>
+    <color name="color_2B2D41">#2B2D41</color>
+    <color name="color_62678B">#62678B</color>
+    <color name="color_AFBAE9">#AFBAE9</color>
+    <color name="color_323754">#323754</color>
+</resources>

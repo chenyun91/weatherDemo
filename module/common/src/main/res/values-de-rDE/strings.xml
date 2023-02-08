@@ -1,0 +1,474 @@
+<resources>
+    <!--通用-->
+    <string name="common_no_data">Keine Daten. Bitte aktualisieren.</string>
+    <string name="common_loading_error">Ladefehler. Bitte erneut versuchen.</string>
+    <string name="common_refresh">Aktualisieren</string>
+    <string name="common_request_failed">Anfrage fehlgeschlagen. Bitte erneut versuchen.</string>
+    <string name="common_confirm">Bestätigen</string>
+    <string name="common_cancel">Abbrechen</string>
+    <string name="common_loading">Laden...</string>
+    <string name="common_tap_to_load_more">Zum Laden tippen</string>
+    <string name="common_no_more_data">Keine Daten</string>
+    <string name="common_login_expired">Anmeldung abgelaufen</string>
+    <string name="net_ssl_error">SSL-Authentifizierung fehlgeschlagen. Trotzdem zugreifen?</string>
+    <string name="common_next">Nächste</string>
+    <string name="common_ok">OK</string>
+    <string name="common_yes">Ja</string>
+    <string name="common_no">Nein</string>
+
+    <!--权限相关-->
+    <string name="permission_title">Keine Berechtigung zum Senden von Benachrichtigungen. Autorisieren?</string>
+    <string name="permission_content">WiAction benötigt Ihre Berechtigung zum Senden von Benachrichtigungen，um Sie über den Fahrzeugstatus zu informieren.</string>
+    <string name="permission_authorize">Zulassen</string>
+    <string name="permission_not_authorize">Nein, danke</string>
+
+
+    <!--登陆页-->
+    <string name="login_language">Deutsch</string>
+    <string name="login_username">Benutzername</string>
+    <string name="login_password">Passwort</string>
+    <string name="login">Anmelden</string>
+    <string name="forgot_password">Passwort vergessen</string>
+    <string name="remember_me">Passwort speichern</string>
+    <string name="login_privacy">Ich habe die Nutzungsvereinbarung und die Datenschutzrichtlinie gelesen und akzeptiert</string>
+    <string name="login_user_agreement">@string/privacy_user_agreement</string>
+    <string name="login_privacy_policy">@string/privacy_privacy_policy</string>
+    <string name="login_privacy_tips">Die Optionsschaltfläche vor "Ich habe die Nutzungsvereinbarung und die Datenschutzrichtlinie gelesen und akzeptiert." ist nicht angekreuzt.</string>
+
+    <!-- 认证页-->
+    <string name="verification">Überprüfung</string>
+    <string name="device_verification">Gerät Überprüfung</string>
+    <string name="receive_verification_code_via">Erhalten Sie den Bestätigungscode über %s</string>
+    <string name="email_verification">E-Mail Überprüfung</string>
+    <string name="verify_your_identity_via_bonded_device">Bestätigungscode über gebundenes Gerät erhalten</string>
+    <string name="verify_desc">Um die Sicherheit Ihres Kontos zu gewährleisten, werden wir Ihre Identität überprüfen.</string>
+
+    <!--邮箱认证-->
+    <string name="success_sent">Erfolgreich gesendet</string>
+    <string name="email_verify_desc">Sie erhalten eine E-Mail mit einem Bestätigungscode. Bitte geben Sie diesen Code ein, um Ihre Identität zu bestätigen.</string>
+    <string name="resend">Erneut senden</string>
+
+    <!--重置密码-->
+    <string name="reset_username">Benutzername</string>
+    <string name="reset_username_hint">Geben Sie Ihren Benutzernamen ein</string>
+    <string name="reset_email">E-Mail-Addresse</string>
+    <string name="reset_email_hint">Geben Sie ihre E-Mail-Addresse ein</string>
+    <string name="reset_send_verification_code">Bestätigungscode senden</string>
+    <string name="reset_email_send_success_desc">Sie erhalten eine E-Mail mit einem Bestätigungscode. Bitte geben Sie diesen Code ein, um Ihre Identität zu bestätigen.</string>
+    <string name="reset_password_desc">Das Passwort kann zur Anmeldung an der Fahrzeugmanagementplattform (Web/Mobile) verwendet werden.</string>
+    <string name="reset_password_hint">Mindestens 8 alphanumerische Zeichen</string>
+    <string name="reset_password_condition_1">Das Passwort muss zwischen 8 und 14 Zeichen lang sein.</string>
+    <string name="reset_password_condition_2">Das Passwort muss mindestens 1 Ziffer, 1 Großbuchstaben und 1 Kleinbuchstaben enthalten.</string>
+    <string name="reset_password_condition_3">Das Passwort darf nicht den Benutzernamen enthalten.</string>
+    <string name="reset_password_format_is_incorrect_please_re_enter">Passwortsformat ist unannehmbar. Bitte erneut eingeben.</string>
+    <string name="reset_password">Passwort zurücksetzen</string>
+    <string name="reset_enter_password">Geben Sie Ihr Passwort ein</string>
+
+
+    <!-- 选择场地、车辆-->
+    <string name="vehicle_start_vehicle">Fahrzeug starten</string>
+    <string name="vehicle_control_vehicle">Fahrzeug steuern</string>
+    <string name="vehicle_choose_another_item">Ort auswählen</string>
+    <string name="vehicle_online">Online</string>
+    <string name="vehicle_offline">Offline</string>
+    <string name="vehicle_preparing">In Vorbereitung</string>
+    <string name="vehicle_unable_to_operate">Beim Laden kann das Fahrzeug nicht betrieben werden</string>
+    <string name="vehicle_view_vehicle_status">Fahrzeugstatus anzeigen</string>
+
+
+    <!-- 实时图传监控    -->
+    <string name="aliac_real_time_video">Echtzeit Video</string>
+    <string name="aliac_main_view">Hauptansicht</string>
+    <string name="aliac_side_view">Seitenansicht</string>
+    <string name="aliac_rear_view">Rückansicht</string>
+    <string name="aliac_click_to_reload">Zum Neuladen tippen</string>
+
+    <!--    车辆控制开关首页-->
+    <string name="vehicle_control_portal">Fahrzeugkontrollportal</string>
+    <string name="vehicle_autonomous_safety_switch">Power</string>
+    <string name="vehicle_on">EIN</string>
+    <string name="vehicle_off">AUS</string>
+    <string name="vehicle_power">Power</string>
+    <string name="vehicle_ads">Autonomes Fahrsystem</string>
+    <string name="vehicle_control_the_vehicle">Fahrzeug steuern</string>
+    <string name="vehicle_confirm_power_on">Bitte bestätigen Sie, ob Sie das Crank starten möchten.</string>
+    <string name="vehicle_confirm_power_off">Bitte bestätigen Sie, ob Sie das Crank abschalten möchten.</string>
+    <string name="vehicle_confirm_ads_activate">Bitte bestätigen Sie, ob Sie das ADS aktivieren möchten.</string>
+    <string name="vehicle_confirm_ads_deactivate">Bitte bestätigen Sie, ob Sie das ADS deaktivieren möchten.</string>
+    <string name="vehicle_loading_timeout">Zeitüberschreitung bei Laden</string>
+    <string name="vehicle_tips_open_ads">ADS aktivieren…</string>
+    <string name="vehicle_tips_close_ads">ADS deaktivieren…</string>
+    <string name="vehicle_power_on_fail_tips">Einschalten aus der Ferne fehlgeschlagen. Bitte prüfen Sie Folgendes: \n1. Ob der Zündschlüssel aus dem Schlüsselloch gezogen ist. Wenn nicht, ziehen Sie ihn bitte heraus und versuchen Sie erneut, das Fahrzeug aus der Ferne einzuschalten.\n2. Überprüfen Sie bitte den Netzwerksignalstatus, wenn die Netzwerkverbindung noch schlecht ist.\n\nWenn es immer noch fehlschlägt, versuchen Sie bitte, es manuell einzuschalten.Wenn Sie weitere Unterstützung benötigen, können Sie uns per E-mail kontaktieren.</string>
+
+    <!--消息中心、我的-->
+    <string name="msg_system_message">Systemmeldung</string>
+    <string name="msg_warning">Warnung</string>
+    <string name="msg_sweeping_report">Reinigungsbericht</string>
+    <string name="msg_account_security">Kontosicherheit</string>
+    <string name="mine_me">Personal Center</string>
+    <string name="mine_version">Version</string>
+    <string name="mine_user_agreement">Nutzungsvereinbarung</string>
+    <string name="mine_log_out">Abmelden</string>
+    <string name="mine_exit_tips">Bitte bestätigen Sie, ob Sie das System verlassen möchten.</string>
+
+    <!--启动检查页-->
+    <string name="vehicle_manual_check_title">Manuelle Prüfung</string>
+    <string name="vehicle_manual_check_normal">Normal</string>
+    <string name="vehicle_manual_check_warning">Warnung</string>
+    <string name="vehicle_manual_check_error">Fehler</string>
+    <string name="vehicle_manual_check_pass_all_checks">Alle Punkte Bestätigen</string>
+    <string name="vehicle_manual_check_pass_submit_result">Ergebnisse übermitteln</string>
+    <string name="vehicle_manual_check_commit_tips">Jemand anderes hat bereits ein Prüfergebnis übermittelt. Das Fahrzeug befindet sich jetzt in der Systemprüfung. </string>
+    <string name="vehicle_manual_check_input_desc_hint">Beschreibung eingeben</string>
+
+
+    <!--用户协议相关-->
+    <string name="privacy_user_agreement">Nutzungsvereinbarung</string>
+    <string name="privacy_privacy_policy">Datenschutzrichtlinie</string>
+    <string name="privacy_agree">Akzeptiert</string>
+
+    <!--强制升级-->
+    <string name="version_not_supported_title">Versionsaktualisierung</string>
+    <string name="version_not_supported_content">Die aktuelle Version ist nicht mehr verfügbar, bitte aktualisieren Sie auf die neueste Version.</string>
+    <string name="version_upgrade">Aktualisieren</string>
+
+    <!--    用户反馈-->
+    <string name="feedback_file_type_not_support">Dateityp wird nicht unterstützt.</string>
+    <string name="mine_user_feedback">Feedback</string>
+    <string name="mine_user_feedback_category">Kategorie</string>
+    <string name="mine_user_feedback_description">Beschreibung</string>
+    <string name="mine_user_feedback_send">Senden</string>
+    <string name="mine_user_feedback_category_vehicle">Fahrzeugproblem</string>
+    <string name="mine_user_feedback_category_suggestion">Verbesserungsvorschlag</string>
+    <string name="mine_user_feedback_category_other">Sonstiges</string>
+    <string name="mine_user_feedback_send_complete">Feedback wird gesendet</string>
+    <string name="mine_user_feedback_describe_your_question">Bitte beschreiben Sie Ihr Problem.</string>
+
+
+    <!--任务选择页-->
+    <string name="vehicle_rout_task_title">Reinigungsroute</string>
+    <string name="vehicle_rout_task_dialog">Sollen wir die aktuelle Aufgabe ausführen?</string>
+
+    <!--    设备验证-->
+    <string name="login_verify_confirm_tips">Bitte bestätigen Sie auf dem Gerät, auf dem die letzte erfolgreiche Anmeldung erfolgte.</string>
+    <string name="login_verify_verification_failed">Überprüfung fehlgeschlagen</string>
+    <string name="login_verify_device_identifier">Gerätekennung</string>
+    <string name="login_verify_fail_return_tips">Zurück zur Überprüfungsseite nach %ds</string>
+    <string name="login_verify_accept">Anmelden</string>
+    <string name="login_verify_refuse">Abbrechen</string>
+    <string name="login_verify_content">Sind Sie damit einverstanden, sich mit dem Gerät %s anzumelden?</string>
+
+    <!--新手引导-->
+    <string name="guide_user_power_tips">Die Erinnerung an den Power Schalter</string>
+    <string name="guide_user_power_first_step_tips">Zunächst sollte das Crank gestartet werden.</string>
+    <string name="guide_user_power_second_step_tips">Und dann aktivieren Sie bitte das ADS.\nDie Reinigungsroute kann durchgeführt werden, wenn das ADS erfolgreich eingeschaltet ist.</string>
+    <string name="guide_user_power_complete_tips">Die Reinigungsroute kann durchgeführt werden, wenn das ADS erfolgreich eingeschaltet ist.</string>
+    <string name="guide_user_next_step">Nächster Schritt</string>
+    <string name="guide_user_start_use">Starten</string>
+    <string name="guide_user_start_check_tips1">Bitte überprüfen Sie jedes Element.</string>
+    <string name="guide_user_start_check_tips2">Sie können das Problem beschreiben und uns hochladen, wenn es einen abnormalen Status gibt.</string>
+
+    <!--个人中心页-->
+    <string name="mine_user_feedback_dlg_change_avatar_title">Profilbild ändern</string>
+    <string name="mine_user_feedback_dlg_change_avatar_choose_from_library">Vom Album hochladen</string>
+    <string name="mine_user_feedback_dlg_change_avatar_take_a_photo">Von der Kamera hochladen</string>
+    <string name="mine_user_feedback_dlg_change_avatar_cancle">Abbrechen</string>
+    <string name="mine_user_feedback_dlg_btn_confirm">Bestätigen</string>
+    <string name="mine_user_feedback_dlg_btn_cancel">Abbrechen</string>
+    <string name="mine_user_feedback_toast_fail_camera">Hochladen von Fotos von der Kamera nicht möglich.</string>
+    <string name="mine_user_feedback_toast_fail_camera_permission">Hochladen von Fotos von der Kamera nicht möglich. Bitte prüfen Sie die Genehmigung der Kamera.</string>
+    <string name="mine_user_feedback_toast_fail_library">Hochladen von Fotos vom Album nicht möglich.</string>
+    <string name="mine_user_feedback_toast_fail_library_permission">Hochladen von Fotos vom Album nicht möglich. Bitte prüfen Sie die Genehmigung des Albums.</string>
+    <string name="mine_user_feedback_toast_upload_success">Foto erfolgreich hochgeladen.</string>
+    <string name="mine_user_feedback_toast_upload_failed">Foto hochladen fehlgeschlagen.</string>
+    <string name="mine_user_feedback_toast_camera_permission_request">Würden Sie der App den Zugriff auf die Kamera erlauben, um Fotos hochzuladen?</string>
+    <string name="mine_user_feedback_toast_album_permission_request">Würden Sie der App den Zugriff auf das Album erlauben, um Fotos hochzuladen? </string>
+
+
+    <!--  启动页，车辆状态  -->
+    <string name="common_unknown">unbekannt</string>
+    <string name="vehicle_start_abnormal">anormal</string>
+    <string name="vehicle_start_status">Fahrzeugstatus</string>
+
+    <string name="vehicle_start_status_network">Netzwerk</string>
+    <string name="vehicle_start_status_parking_brake">Feststellbremse</string>
+    <string name="vehicle_start_status_charging_cable">Ladekabel</string>
+    <string name="vehicle_start_status_battery">Batterie</string>
+    <string name="vehicle_start_status_emergency_stop">Not-Aus-Schalter</string>
+    <string name="vehicle_start_status_freshwater_tank">Frischwassertank</string>
+
+    <string name="vehicle_start_status_break_activated">aktiviert</string>
+    <string name="vehicle_start_status_break_released">losgelassen</string>
+    <string name="vehicle_start_status_plugged">eingesteckt</string>
+    <string name="vehicle_start_status_unplugged">ausgesteckt</string>
+    <string name="vehicle_start_status_charing">laden</string>
+    <string name="vehicle_start_status_power_left">%d%% übrig</string>
+    <string name="vehicle_start_status_pressed">gedrückt</string>
+    <string name="vehicle_start_status_released">losgelassen</string>
+    <string name="vehicle_start_status_empty">leer</string>
+    <string name="vehicle_start_status_not_empty">nicht leer</string>
+    <string name="vehicle_route_task_can_not_excute_task">Die aktuelle Aufgabe kann nicht an Nicht-Startpunkten ausgeführt werden.</string>
+
+    <!--新建定时任务-->
+    <string name="new_schedule_title_cancel">Abbrechen</string>
+    <string name="new_schedule_title_save">Speichern</string>
+    <string name="new_schedule_repeat_way_once">einmal</string>
+    <string name="new_schedule_time_duration">Geschätzte Zeit/Distanz</string>
+    <string name="new_schedule_please_select">Bitte auswählen</string>
+    <string name="new_schedule_repeat_way_monday">Montag</string>
+    <string name="new_schedule_repeat_way_tuesday">Dienstag</string>
+    <string name="new_schedule_repeat_way_wednesday">Mittwoch</string>
+    <string name="new_schedule_repeat_way_thursday">Donnerstag</string>
+    <string name="new_schedule_repeat_way_friday">Freitag</string>
+    <string name="new_schedule_repeat_way_saturday">Samstag</string>
+    <string name="new_schedule_repeat_way_sunday">Sonntag</string>
+    <string name="new_schedule_repeat_way_monday_tumb">Mo.</string>
+    <string name="new_schedule_repeat_way_tuesday_tumb">Di.</string>
+    <string name="new_schedule_repeat_way_wednesday_tumb">Mi.</string>
+    <string name="new_schedule_repeat_way_thursday_tumb">Do.</string>
+    <string name="new_schedule_repeat_way_friday_tumb">Fr.</string>
+    <string name="new_schedule_repeat_way_saturday_tumb">Sa.</string>
+    <string name="new_schedule_repeat_way_sunday_tumb">So.</string>
+    <string name="new_schedule_create_title">Terminplan hinzufügen</string>
+    <string name="new_schedule_edit_title">Plan bearbeiten</string>
+    <string name="new_schedule_select_task">Route auswählen</string>
+    <string name="new_schedule_repeat_way">Wiederholen</string>
+    <string name="new_schedule_delete">Diesen Plan löschen</string>
+    <string name="new_schedule_repeat_way_every_week">""</string>
+    <string name="new_schedule_dlg_execute">Möchten Sie den Terminplan ausführen?</string>
+    <string name="new_schedule_dlg_sure">Bestätigen</string>
+    <string name="new_schedule_dlg_think_again">Überdenken</string>
+    <string name="new_schedule_cancel_dlg_title">Wollen Sie die Planbearbeitung abbrechen?</string>
+    <string name="new_schedule_delete_dlg_title">Möchten Sie den Terminplan löschen?</string>
+    <string name="new_schedule_repeat_way_circulate">Wiederholen</string>
+    <string name="new_schedule_dlg_part1_title">Terminplan</string>
+    <string name="new_schedule_dlg_part1_0">Bitte bestätigen Sie die Details des Terminplans und entscheiden Sie, ob Sie den Terminplan festlegen möchten:\nFahrzeug:%s\nRoute:%s\nWiederholen:%s\nStartzeit:%s</string>
+    <string name="new_schedule_dlg_part2_0">Sobald der Terminplan erfolgreich eingestellt wurde, müssen Sie den Fahrzeugstatus physisch überprüfen, bevor der Plan beginnt. Andernfalls kann es zu einem Unfall mit Personen-, Fahrzeug- oder Sachschäden kommen. Um die Sicherheit zu gewährleisten, bestätigen Sie diese bitte wie folgt:\n1. Das Fahrzeug wird die autonome Reinigungsaufgabe durchführen, nachdem der Terminplan festgelegt wurde. Sie autorisieren {Wibot/Autowise}, Sie beim Einschalten und Fernsteuern des Fahrzeugs zu unterstützen, wenn der Terminplan in Kraft getreten ist.\n2. Bevor der Plan in Kraft tritt, vergewissern Sie sich bitte, dass das Fahrzeug physisch überprüft wurde und die Anforderungen für die Fernsteuerung erfüllt, basierend auf Kapitel 5.4 "Überblick über das Fahrzeugkontrollportal" und Kapitel 5.5 "Zugriff auf das Fahrzeugkontrollportal" in der {Bedienungsanleitung Urban-Sweeper S2.0 Autonomous}.\n3. Wenn das Fahrzeug die autonome Reinigungsaufgabe ausgeführt hat, schließt das System die physische Fahrzeugprüfung ab und besteht standardmäßig die manuelle Prüfung. Wenn Sie die manuelle Prüfung nicht durchführen, tragen Sie die volle Verantwortung für die Folgen, einschließlich des Scheiterns der Ausführung der Reinigungsaufgabe und aller Risiken, die während des Ausführungsprozesses entstehen. </string>
+    <string name="new_schedule_dlg_elert">Wenn es Risikofaktoren gibt, wie z. B. einen unsicheren Fahrzeugstatus und eine komplexe Straßenumgebung, die bei der Anwendung dieser Funktion zu Unfällen führen können, sollten Sie sich darauf vorbereiten, das Fahrzeug jederzeit zu übernehmen, und sofort {Wibot/Autowise} kontaktieren, um den Terminplan abzubrechen.\nDaher sollten Sie die volle Verantwortung für die Überwachung und Kontrolle des Fahrzeugs übernehmen, wenn Sie sich entscheiden, einen Terminplan festzulegen.</string>
+    <string name="new_schedule_dlg_part2_check">Verstehen und bestätigen Sie, um einen Terminplan festzulegen</string>
+    <string name="new_schedule_dlg_part3_btn_sure">Ausführung eines Terminplans zu bestätigen</string>
+    <string name="new_schedule_dlg_part2_title1">Erklärung</string>
+    <string name="new_schedule_dlg_part2_title2">Warnung</string>
+    <string name="new_schedule_dlg_part3_2">\nSobald der Terminplan erfolgreich eingestellt wurde, müssen Sie den Fahrzeugstatus physisch überprüfen, bevor der Plan beginnt. Andernfalls kann es zu einem Unfall mit Personen-, Fahrzeug- oder Sachschäden kommen.</string>
+
+    <!--定时任务列表-->
+    <string name="vehicle_timing_task_list_title">Liste der Terminpläne</string>
+    <string name="vehicle_timing_task_list_history_title">Liste historischer Terminpläne</string>
+    <string name="vehicle_timing_task_everyday">Jeden Tag</string>
+    <string name="vehicle_timing_task_withdraw_task">Abbrechen</string>
+    <string name="vehicle_timing_task_withdraw_in">Abbrechen</string>
+    <string name="vehicle_timing_task_working_days">Werktag</string>
+    <string name="vehicle_timing_task_planing">Geplant</string>
+    <string name="vehicle_timing_task_looper">Wiederholen</string>
+    <string name="vehicle_timing_task_schedule">Ausführen</string>
+    <string name="vehicle_timing_task_schedule_complete">Fertiggestellt</string>
+    <string name="vehicle_timing_task_schedule_error">Ausführung fehlgeschlagen </string>
+    <string name="vehicle_timing_task_close_task">Wollen Sie diesen Terminplan stoppen?</string>
+    <string name="vehicle_timing_task_open_task">Wollen Sie diesen Terminplan starten?</string>
+    <string name="vehicle_timing_task_is_withdraw_task">Wollen Sie diesen Terminplan abbrechen?</string>
+    <string name="vehicle_timing_task_schedule_error_check">%s kann den Terminplan um %s nicht ausführen, Bitte prüfen Sie den Fahrzeugstatus, ob die Anforderungen erfüllt sind:\n </string>
+    <string name="vehicle_timing_task_schedule_error_check_line">(%d) %s: %s\n</string>
+
+    <!--日历-->
+    <string name="calendar_year">@string/empty</string>
+    <string name="calendar_month">@string/empty</string>
+    <string name="calendar_day">@string/empty</string>
+
+    <!--任务选择列表切换场地-->
+    <string name="vehicle_rout_task_btn_select_park">Ort</string>
+    <string name="vehicle_rout_task_park_select_title">Ort auswählen</string>
+    <string name="vehicle_start_problem_diagnosis">Problemdiagnose</string>
+    <string name="vehicle_start_problem_diagnosis_dlg_exit">Beenden</string>
+    <string name="vehicle_start_problem_diagnosis_web_connect">Netzwerkverbindung</string>
+    <string name="vehicle_start_problem_diagnosis_interface_connect">Schnittstellenverbindung</string>
+    <string name="vehicle_start_problem_diagnosis_command_receive">Fahrzeugbefehl empfangen</string>
+    <string name="vehicle_start_problem_diagnosis_web_connect_error">Fehler {}, bitte kontaktieren Sie den Ingenieur, um das Problem zu lösen</string>
+    <string name="vehicle_start_problem_diagnosis_dlg_correct">Alle bestanden</string>
+    <string name="map_manual">Manuell</string>
+    <string name="map_auto">Auto</string>
+    <string name="map_time_left">übrig</string>
+    <string name="map_mileage_left">übrig</string>
+    <string name="map_progress">Fortschritt</string>
+    <string name="map_task_type_0">Andere Aufgabe</string>
+    <string name="map_task_type_1">Aufgabenwechsel</string>
+    <string name="map_task_type_6">Mittellinienreinigung</string>
+    <string name="map_task_type_5">Straßenrandreinigung</string>
+    <string name="map_task_type_2">Abdeckungsreinigung</string>
+    <string name="map_task_type_4">Smartreinigung</string>
+    <string name="map_task_type_3">Parkplatzreinigung</string>
+    <string name="map_task_type_1001">Zurück zum Startpunkt</string>
+    <string name="map_task_type_1002">Bereits am Startpunkt</string>
+    <string name="map_task_type_1003">Zum Endpunkt gehen</string>
+    <string name="map_task_type_1004">Bereits am Endpunkt</string>
+    <string name="map_speed">Geschw.</string>
+    <string name="map_return">Zurück</string>
+    <string name="map_time_travelled">Fortschritt der Reinigungsdauer</string>
+    <string name="map_distance_travelled">Fortschritt der Reinigungsdistanz</string>
+    <string name="map_break">Bremse</string>
+    <string name="map_throttle">Gas</string>
+    <string name="map_brush_not_work">Bereitstehen</string>
+    <string name="map_brush_working">Arbeiten</string>
+    <string name="map_route_name">Route:%s</string>
+    <string name="map_battery">Batterie</string>
+    <string name="map_brush">Kehrbürste</string>
+    <string name="map_no_network_toast">The network is poor. The request failed. Please try again later.</string>
+    <string name="map_close_ads_with_who_and_platform">%s deaktiviert ADS durch %s Plattform</string>
+    <string name="map_offline">Fahrzeug offline</string>
+    <string name="map_processing">Verarbeitung, bitte warten.</string>
+    <string name="map_warning">Warnung</string>
+    <string name="map_duration">Dauer</string>
+    <string name="map_no_network">Keine Netzwerkverbindung</string>
+    <string name="map_weak_network">Schwache Netzwerkverbindung</string>
+    <string name="map_override_command_active">Der Fernübernahmebefehl wurde aktiviert. Bitte warten Sie einige Minuten auf die nächsten Schritte.</string>
+    <string name="map_override_command_completed">Der Fernübernahmebefehl ist abgeschlossen. Aktuelle Aufgabe wird automatisch fortgesetzt.</string>
+    <string name="map_override_command_ended">Der Fernübernahmebefehl ist beendet. WIBOT Operationszentrum wird sich später mit Ihnen in Verbindung setzen. Bitte folgen Sie den Schritten im nächsten Dialogfenster.</string>
+    <string name="map_weak_network_title">Netzwerk-Verbindungsanfrage fehlgeschlagen</string>
+    <string name="map_weak_network_text">Keine oder schwache Netzwerkverbindung erkannt. Um die Sicherheit zu gewährleisten, verlangsamt das Fahrzeug und fährt zum Startpunkt und schaltet sich dann aus. In der Zwischenzeit können Sie entscheiden, ob Sie Folgendes tun möchten:\n
+1) Finden Sie das Fahrzeug.\n
+2) Wenn sich das Fahrzeug bereits am Startpunkt befindet, brauchen Sie nichts zu tun. \n
+3) Wenn das Fahrzeug noch fährt, können Sie den Not-Aus-Schalter drücken, in den manuellen Modus wechseln und das Fahrzeug zum Startpunkt fahren.\n
+4) Kontaktieren Sie uns unter techsupport@drivenbywibot.com für weitere Unterstützung.</string>
+    <string name="map_start_vehicle_text">Bitte bestätigen Sie, ob das Fahrzeug starten möchten?</string>
+    <string name="map_stop_vehicle_text">Bitte bestätigen Sie, ob Sie das Fahrzeug anhalten möchten?</string>
+    <string name="map_return_vehicle_text">Bitte bestätigen Sie, ob Sie zum Startpunkt zurückkehren möchten?</string>
+    <string name="map_exiting_autonomous_mode">Verlassen des autonomen Modus</string>
+    <string name="map_system_checkIn_rocess">Systemprüfung läuft...</string>
+    <string name="map_system_check_normal">Systemprüfung normal. Tippen Sie auf die Starttaste, um das Fahrzeug zu starten.</string>
+    <string name="map_system_check_abnormal_and_contact">Systemprüfung anormal. WIBOT Operationszentrum versucht, Fehler zu beheben. Bitte warten Sie eine Weile.</string>
+    <string name="map_system_check_fail">Übermittlung der Systemprüfung anormal. Bitte starten Sie das Fahrzeug erneut. Bei Bedarf können Sie sich zur Fehlersuche an das WIBOT Operationszentrum wenden.</string>
+    <string name="map_system_check_status_title">Status der Systemprüfung</string>
+    <string name="map_system_check_status_content">Systemprüfung läuft. Der Status wird in etwa 5 Minuten auf normal oder anormal aktualisiert.</string>
+    <string name="map_override_command_ended_title">Fernübernahme Befehl beendet</string>
+    <string name="map_movement_completed">Bewegung abgeschlossen</string>
+    <string name="map_override_command_ended_content">Folgen Sie bitte den folgenden Schritten:\n
+1. Kehren Sie zum Fahrzeug zurück und drücken Sie den Not-Aus-Schalter neben der Fahrzeugtür, um sicherzustellen, dass das Fahrzeug stehen bleibt.\n
+2. Betreten Sie die Kabine, legen Sie den A/M Hebel nach oben und dann nach unten um, und fahren Sie das Fahrzeug manuell zum Startpunkt.\n
+3. Verlassen Sie die Kabine und drehen Sie dann den Not-Aus-Schalter im Uhrzeigersinn, um ihn zu lösen.\n
+4. Kehren Sie zu WiAction zurück und tippen Sie auf Bewegung abgeschlossen.\n
+5. Wenn Sie weitere Unterstützung benötigen, wenden Sie sich bitte an techsupport@drivenbywibot.com.   </string>
+    <string name="map_collision_ensor_riggered_title">Collision Sensor Triggered</string>
+    <string name="map_collision_sensor_triggered_content">Der Fahrzeugkollisionssensor %s wurde ausgelöst. Um die Sicherheit zu gewährleisten, befolgen Sie bitte die folgenden Schritte:\n
+1）Gehen Sie zum Fahrzeug und drücken Sie den Not-Aus-Schalter.\n
+2）Überprüfen Sie den Status.\n
+3）Entscheiden Sie sich, ob Sie das Fahrzeug manuell fahren oder den Not-Aus-Schalter lösen möchten, um die aktuelle Reinigungsaufgabe sofort fortzusetzen.</string>
+    <string name="map_collision_bar_1">Oben Vorne</string>
+    <string name="map_collision_bar_2">Kehrgutbehälter Links Vorne</string>
+    <string name="map_collision_bar_3">Kehrgutbehälter Rechts Vorne</string>
+    <string name="map_collision_bar_4">Linke Bürste</string>
+    <string name="map_collision_bar_5">Rechte Bürste</string>
+    <string name="map_collision_bar_6">Kehrgutbehälter Links Hinten</string>
+    <string name="map_collision_bar_7">Kehrgutbehälter Rechts Hinten</string>
+    <string name="map_deactivating_ads">ADS deaktivieren...</string>
+    <string name="map_next_step">Nächster Schritt</string>
+    <string name="map_start_trial">Starten</string>
+    <string name="map_live_video">Es ist einfacher, die Szene, in der das Fahrzeug fährt, über Echtzeit-Video zu verstehen.</string>
+    <string name="map_cleaning_route">Die Echtzeit-Reinigungsroute kann in dieser Benutzeroberfläche angezeigt werden.</string>
+    <string name="map_vehicle_driving">Hier können Sie das Fahrzeug zum Start oder Stop steuern.</string>
+    <string name="map_cleaning_report">Reinigungsbericht</string>
+    <string name="map_repeat_cleaning">Aktuelle Reinigungsroute wiederholen</string>
+    <string name="map_repeat_cleaning_confirm">Bitte bestätigen Sie, ob Sie die aktuelle Reinigungsroute wiederholen möchten?</string>
+    <string name="map_exit_ads">ADS beenden</string>
+    <!--    // 防撞条触发类型-->
+
+
+
+    <!-- 版本升级 start -->
+    <string name="new_update">Jetzt aktualisieren</string>
+    <string name="find_new_version">Neue Version gefunden %s</string>
+    <string name="download_fail">Installation fehlgeschlagen</string>
+    <string name="upgrade_install_now">Jetzt installieren</string>
+    <string name="app_download_show">Installieren...</string>
+
+    <!--挪车-->
+    <string name="vehicle_control_connect_fail">Bitte überprüfen Sie die Netzwerkverbindung</string>
+    <string name="vehicle_control_close_wifi_move_vehicle">Würden Sie die WiFi-Verbindung trennen, um den Fernbedienungsmodus zu beenden?</string>
+    <string name="vehicle_control_close_wifi_tips">Bitte trennen Sie umgehend das Fahrzeug-WiFi.</string>
+    <string name="vehicle_control_no_wifi_tips">Bitte verbinden Sie den WiFi-Hotspot manuell</string>
+    <string name="vehicle_control_weak_wifi_tips">Bitte nähern Sie sich dem Fahrzeug, da die Signalqualität des WiFi-Hotspots schwach ist</string>
+    <string name="vehicle_control_normal_wifi_tips">Bitte tippen Sie auf die STARTEN Taste, um in den Fernbedienungsmodus zu gelangen</string>
+    <string name="vehicle_control_open_power_and_tuv_tips">Bitte starten Sie die Power &amp; Crank manuell.</string>
+    <string name="vehicle_move_power_tips">12V/24V Power &amp; Crank</string>
+    <string name="vehicle_move_geer_front">Fahren</string>
+    <string name="vehicle_move_geer_back">Rückwärts</string>
+    <string name="vehicle_move_unlock_vehicle_tips">(Zum Entsperren halten)</string>
+    <string name="vehicle_move_move_vehicle_tips">(Bitte zeichnen Sie einen Kreis, um das Fahrzeug zu bewegen)</string>
+    <string name="vehicle_move_enter_move">FB Modus eintreten</string>
+    <string name="vehicle_move_check_title">FB Modus prüfen</string>
+    <string name="vehicle_move_check_title_wifi">WiFi-Verbindung</string>
+    <string name="vehicle_move_check_title_tuv">Power ein</string>
+    <string name="vehicle_move_check_title_power">Crank ein</string>
+    <string name="vehicle_move_check_title_ads">ADS Deaktivierung</string>
+    <string name="vehicle_move_check_title_stop">Loslassen der Notausschalter</string>
+    <string name="vehicle_move_error_tips_wifi">Bitte überprüfen Sie die WiFi-Verbindung mit einer bestimmten Hotspot-ID</string>
+    <string name="vehicle_move_error_tips_tuv">Bitte stellen Sie sicher, dass das Power einschaltet ist.</string>
+    <string name="vehicle_move_error_tips_power">Bitte prüfen Sie, ob der Schlüssel richtig steht, wenn Power ausgeschaltet ist</string>
+    <string name="vehicle_move_error_tips_ads">Bitte deaktivieren Sie es, wenn ADS aktiviert ist</string>
+    <string name="vehicle_move_error_tips_stop">Bitte lassen Sie sie los, wenn der Notausschalter manuell oder aus der Ferne ausgelöst wird</string>
+
+    <!--车辆启动-->
+    <string name="vehicle_start_4g_not_connect">4G getrennt</string>
+    <string name="vehicle_start_connecting_4g">4G verbinden</string>
+    <string name="vehicle_start_4g_connect_success">4G verbunden</string>
+    <string name="vehicle_start_connect_fail">Verbindung fehlgeschlagen</string>
+    <string name="vehicle_start_wifi_not_connect">Wi-Fi getrennt</string>
+    <string name="vehicle_start_connecting_wifi">Wi-Fi verbinden</string>
+    <string name="vehicle_start_wifi_connect_success">Wi-Fi verbunden</string>
+    <string name="vehicle_start_hardware_isopen">Wurden die Hardwaregeräte (Kippschalter der Elektro- und Elektronikbox) eingeschaltet?</string>
+    <string name="vehicle_start_power_on_tips">Würden Sie das Crank starten?</string>
+    <string name="vehicle_start_power_off_tips">Würden Sie das Crank abschalten?</string>
+    <string name="vehicle_start_hardware_on_tips">Würden Sie alle Geräte STARTEN？</string>
+    <string name="vehicle_start_hardware_off_tips">Würden Sie alle Geräte ausschalten?</string>
+    <string name="vehicle_start_hardware_center">V-CCU</string>
+    <string name="vehicle_start_hardware_monitor">M-CCU</string>
+    <string name="vehicle_start_hardware_xavier">Xavier</string>
+    <string name="vehicle_start_hardware_starting_txt">Booten</string>
+    <string name="vehicle_start_hardware_closing_txt">Abschalten</string>
+    <string name="vehicle_start_hardware_ready_tips">Sie können das ADS aktivieren,\n wenn die Geräte bereit sind</string>
+    <string name="vehicle_start_software_open_ads">ADS\naktivieren.</string>
+    <string name="vehicle_start_software_open_ads_complete">ADS\n erfolgreich aktiviert</string>
+    <string name="vehicle_start_vehicle_connect_fail_tips">Die Verbindung zum Fahrzeug konnte nicht hergestellt werden. Bitte überprüfen Sie, ob das Power eingeschaltet ist. Wenn ja, ziehen Sie bitte zum Aktualisieren nach unten, um den aktuellen Status des Fahrzeugs zu aktualisieren.</string>
+    <string name="vehicle_start_hardware_switch_text">Hardwareschalter</string>
+    <string name="vehicle_start_battery_switch_text">Power</string>
+    <string name="vehicle_start_power_switch_text">Crank</string>
+    <string name="vehicle_start_hardware_opening">Geräte booten</string>
+    <string name="vehicle_start_hardware_open_success">Geräte erfolgreich gestartet</string>
+    <string name="vehicle_start_hardware_open_fail">Gerätestart fehlgeschlagen</string>
+    <string name="vehicle_start_hardware_closing">Geräte werden abgeschaltet</string>
+    <string name="vehicle_start_hardware_close_success">Geräteabschaltung erfolgreich</string>
+    <string name="vehicle_start_hardware_close_fail">Geräteabschaltung fehlgeschlagen</string>
+    <string name="vehicle_start_hardware_start_fail_dialog">Die Hardwaregeräte konnten nicht eingeschaltet werden, bitte versuchen Sie es erneut.</string>
+    <string name="vehicle_start_control_vehicle_fail_tips">Bitte überprüfen Sie ALLE Schalter, da der Fahrzeugstatus geändert wurde. Die Bedingungen für die Reinigungsaufgabe sind nicht erfüllt.</string>
+    <string name="vehicle_start_power_on_success_toast">Crank gestartet</string>
+    <string name="vehicle_start_hardware_on_success_toast">Gerätestart erfolgreich.</string>
+    <string name="vehicle_start_ads_on_success_toast">ADS erfolgreich aktiviert.</string>
+    <string name="vehicle_start_get_vehicle_status_fail_toast">Verbindung zum Fahrzeug unterbrochen, bitte Netzwerkverbindung prüfen</string>
+    <string name="vehicle_start_software_start_loading">Booten...</string>
+    <string name="vehicle_start_vehicle_status_ongoing">Fahrzeugstatus abrufen</string>
+
+    <!--    首页-->
+    <string name="vehicle_select_control">Fernbedienung</string>
+    <string name="vehicle_select_start">Reinigung starten</string>
+
+
+    <string name="login_point_chn">Chinesisches Servicenetzwerk</string>
+    <string name="login_point_deu">Europäisches Servicenetzwerk</string>
+
+
+    <string name="vehicle_map_vehicle_stuck_dialog_content">Das Fahrzeug hat sich für eine Minute nicht bewegt, bitte überprüfen Sie, ob das Fahrzeug durch Hindernisse feststeckt.</string>
+    <string name="vehicle_schedule_plan_modify_success">Der Terminplan wurde geändert.</string>
+    <string name="vehicle_schedule_plan_create_success">Der Terminplan wurde festgelegt.</string>
+
+
+
+    <!--    电源启动申明-->
+    <string name="vehicle_open_power_dlg_title">启动电源的重要声明</string>
+    <string name="vehicle_open_power_dlg_desc">开启电源后，请务必在车辆开始执行任务前对车辆进行物理检查，否则可能发生事故造成人员伤害及车辆或者物品损坏。为了确保车辆安全，您应检查以下所有项：</string>
+    <string name="vehicle_open_power_dlg_content">一、制动踏板位置检查\n二、扫刷检查\n三、紧急停止按钮\n四、垃圾箱及水箱检查\n五、大灯检查\n六、雷达及相机防护罩检查\n七、喷头检查\n八、转向异常噪音检查\n九、轮胎外观检查\n十、胎压检查\n十一、转向信号检查\n十二、车辆外观检查\n十三、车门检查\n十四、车内检查\n十五、清扫部件检查\n十六、滤水器检查\n十七、车轮螺栓检查\n十八、车轮位置检查</string>
+    <string name="vehicle_open_power_dlg_warning">警告：</string>
+    <string name="vehicle_open_power_dlg_warning_content">%s如发现上述车辆状况或道路环境等不适宜开启自动驾驶系统，或存在其他不安全因素，您应及时关闭电源，待问题解决后再重新启动车辆。在了解并确认所有检测项正常时，您应时刻监管与控制车辆并承担全部责任。</string>
+    <string name="vehicle_open_power_dlg_i_know">了解并确认上述所有检测项正常</string>
+    <string name="vehicle_open_power_dlg_error">车辆存在问题，需排查问题原因</string>
+    <string name="vehicle_open_power_fail_count_tips">建议手动拧钥匙确认是否可以完成上高压操作，如果失败，请检查蓄电池是否亏电;如果成功，请联系工程师诊断</string>
+    <string name="vehicle_network_timeout">网络连接超时，请重试</string>
+
+</resources>

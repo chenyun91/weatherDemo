@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/color_app_background</item>
+    </style>
+
+    <style name="progressbar_style">
+        <item name="android:maxWidth">50.0dip</item>
+        <item name="android:maxHeight">50.0dip</item>
+        <item name="android:indeterminateDrawable">@anim/anim_loading</item>
+        <item name="android:minWidth">50.0dip</item>
+        <item name="android:minHeight">50.0dip</item>
+    </style>
+
+    <declare-styleable name="TitleLayout">
+        <attr name="title" format="string" />
+        <attr name="backVisible" format="boolean" />
+        <attr name="ivRightVisible" format="boolean" />
+        <attr name="rightSrc" format="integer" />
+        <attr name="btnSaveEnable" format="boolean" />
+        <attr name="lineVisible" format="boolean" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+
+    <style name="base_progressbar_style" parent="@android:style/Widget.Holo.Light.ProgressBar.Small.Inverse">
+        <item name="android:indeterminateDuration">1500</item>
+        <item name="android:indeterminateDrawable">@drawable/base_shape_circle_loading</item>
+    </style>
+
+    <!--透明的activity-->
+    <style name="TranslucentStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item> <!-- 背景色透明 -->
+        <item name="android:windowIsTranslucent">true</item> <!-- 是否有透明属性 -->
+        <item name="android:backgroundDimEnabled">false</item> <!-- 背景是否半透明 -->
+        <item name="android:statusBarColor">@android:color/transparent</item> <!-- 状态栏透明 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item> <!-- activity窗口切换效果 -->
+    </style>
+
+</resources>

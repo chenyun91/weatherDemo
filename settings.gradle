@@ -1,0 +1,3 @@
+include ':app', ':base',':common'
+project(':base').projectDir = file('module/base')
+project(':common').projectDir = file('module/common')
